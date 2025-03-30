@@ -18,3 +18,27 @@
     border-radius: 10px;
     overflow: hidden;
 }
+
+.body_cad{
+    position: relative; 
+    width: 100vw; 
+    height: 100vh;
+    animation: animacao 1s 1;
+    animation-delay: 2s;
+}
+
+.div_spinner{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+@keyframes animacao {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
